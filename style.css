@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Press+Start+2P&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("images/New-background-img.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.navbar{
+    background-color: blue;
+    color: white;
+    height: 10vh;
+    justify-content: space-between;
+    padding: 0px 10px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.navbar h2{
+    font-size: 3vw;
+}
+.btn{
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.details{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50vw;
+    margin: 15px auto;
+    padding: 20px 0px;
+    -webkit-box-shadow: inset 2px 2px 6px 1px rgba(64,61,64,0.75);
+    -moz-box-shadow: inset 2px 2px 6px 1px rgba(64,61,64,0.75);
+     box-shadow: inset 2px 2px 6px 1px rgba(64,61,64,0.75);
+     font-size: .6vw;
+     font-family: 'Press Start 2P', cursive;
+}
+/* game-images-section------------- */
+.game-box{
+    padding: 20px 10px ;
+    height: 20vw;
+    justify-content: space-around;
+}
+.game-starting-img{
+    width: 60vw;
+    height: 20vw;
+    position: absolute;
+    border-radius: 15px;
+}
+.computer-choose{
+    width: 12vw;
+    text-align: center;
+}
+.computer-choose h3{
+    position: relative;
+    bottom: 20px;
+}
+.computer-choose img{
+    width: inherit;
+}
+.animation{
+    width: 25vw;
+}
+.animation img{
+    width: inherit;
+    border-radius: 10px;
+}
+.player-choose{
+    width: 12vw;
+    text-align: center;
+}
+.player-choose h3{
+    position: relative;
+    bottom: 20px;
+}
+.player-choose img{
+    width: inherit;
+}
+/* game-images-section-ends--------------- */
+.buttons{
+    padding: 5px 20px 0px 20px;
+    background-color: white;
+    color: rgb(67, 54, 54);
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(64,61,64,0.75);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(64,61,64,0.75);
+     box-shadow: 0px 0px 6px 1px rgba(64,61,64,0.75);
+}
+.buttons:hover{
+    color: black;
+    cursor: pointer;
+}
+i{
+    margin-right: 5px;
+}
+
+
+/* ---------container-width-details---------- */
+.container-1{
+    width: 60vw;
+    background-color: rgba(0, 145, 255, 0.354);
+    margin: auto;
+    border-radius: 15px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.container-2{
+    width: 40vw;
+    margin:20px auto;
+    justify-content: space-around;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.container-3{
+    width: 40vw;
+    margin: 30px auto;
+    justify-content:space-around;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.buttons2{
+    padding: 5px 30px ;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(64,61,64,0.75);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(64,61,64,0.75);
+     box-shadow: 0px 0px 6px 1px rgba(64,61,64,0.75);
+     background-color: black;
+     color: white;
+}
+/* ------------container-width-details-ends-here-------- */
+.flex{
+    display: flex;
+    align-items: center;
+}
+.displayNone{
+    display: none;
+}
+.noBoxShadow{
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,0);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(255,255,255,0);
+    box-shadow: 0px 0px 0px 0px rgba(255,255,255,0);
+}
+.visibilityNone{
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 769px){
+    .container-2{
+        width:60vw;
+    }
+}
+@media only screen and (max-width:521px){
+    .details{
+        width: 90vw;
+        font-size: 1vw;
+    }
+    .container-2{
+        width: auto;
+    }
+    .computer-choose{
+        width: 20vw;
+    }
+    .player-choose{
+        width: 20vw;
+    }
+    .buttons{
+        padding: 5px 10px 0px 10px;
+    }
+    .container-3{
+        width: auto;
+    }
+    .container-1{
+        width: 95vw;
+        height: 40vh;
+    }
+    .game-box{
+        height: 40vh;
+    }
+    .animation{
+        width: 45vw;
+    }
+    .computer-choose h3{
+        font-size: 3.5vw;
+    }
+    .player-choose h3{
+        font-size: 3.5vw;
+    }
+    .navbar h2{
+        font-size: 3.5vw;
+    }
+    .btn{
+        font-size: 3vw;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+    .game-starting-img{
+        width: 95vw;
+        height: 40vh;
+        position: absolute;
+        border-radius: 15px;
+    }
+}
